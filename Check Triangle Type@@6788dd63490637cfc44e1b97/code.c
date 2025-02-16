@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
     int a,b,c;
-    sacnf("%d%d5d",&a,&b,&c);
+    sacnf("%d%d%d",&a,&b,&c);
     if(a=b=c){
         printf("Equilateral\n");
     }

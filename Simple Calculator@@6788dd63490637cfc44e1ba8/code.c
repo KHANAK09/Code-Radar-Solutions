@@ -15,7 +15,7 @@ void main(){
         break;
         case'/':
         if(b!=0)
-        printf("%d\n",num2/num2);
+        printf("%d\n",num1/num2);
         else
         printf("error");
         break;

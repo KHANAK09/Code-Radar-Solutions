@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main(){
-    int year;
-    scanf("%d".&year);
-    if((year%400==00)||(year %4==0 && year %100 !=0)){
+    int Year;
+    scanf("%d".&Year);
+    if((Year%400==00)||(Year %4==0 && Year %100 !=0)){
         printf("Leap Year\n");
     }
     else{

@@ -1,10 +1,7 @@
 #include<stdio.h>
 int mian(){
     char grade;
-    if(scanf("%c",&grade) !=1){
-        printf("Invalid grade\n");
-        return 1;
-    }
+    scanf("%c",&grade);
     switch(grade){
         case 'A':
         printf("Excellent\n");

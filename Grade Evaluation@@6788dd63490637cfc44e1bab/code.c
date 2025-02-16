@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mian(){
+int main(){
     char grade;
     scanf("%c",&grade);
     switch(grade){

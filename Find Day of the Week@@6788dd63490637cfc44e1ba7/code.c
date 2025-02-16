@@ -9,7 +9,7 @@ void main(){
         printf("Tuesday");
     }
     else if(num==3){
-        printf("Wednesday";)
+        printf("Wednesday");
     }
     else if(num==4){
         printf("Thursday");

@@ -14,7 +14,15 @@ void main(){
         printf("%d\n",num1*num2);
         break;
         case'/':
-        printf("%d\n",num2 ==0);
+        if(b!=0)
+        printf("%d\n",num2/num2);
+        else
+        printf("error");
+        break;
+        default:
+        printf("Error:Invalid operator\n");
+        break;
+
     }
     
 }

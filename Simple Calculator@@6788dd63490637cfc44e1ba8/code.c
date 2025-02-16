@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
     int num1,num2;
     char operator;
     scanf("%d%d%c",&num1,&num2,&operator);
@@ -24,5 +24,6 @@ void main(){
         break;
 
     }
+    return 0;
     
 }
